@@ -73,6 +73,7 @@
 		54F26801171EB3BF0066B564 /* SDataGridSpeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F26800171EB3BF0066B564 /* SDataGridSpeedCell.m */; };
 		54F26803171EB3CC0066B564 /* rev.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F26802171EB3CC0066B564 /* rev.png */; };
 		54F26807171EDE970066B564 /* green_up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F26806171EDE970066B564 /* green_up_arrow.png */; };
+		F45DCF0A1799979F00160C30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45DCF091799979F00160C30 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +172,7 @@
 		54F26800171EB3BF0066B564 /* SDataGridSpeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SDataGridSpeedCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		54F26802171EB3CC0066B564 /* rev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rev.png; sourceTree = "<group>"; };
 		54F26806171EDE970066B564 /* green_up_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_up_arrow.png; sourceTree = "<group>"; };
+		F45DCF091799979F00160C30 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45DCF0A1799979F00160C30 /* Security.framework in Frameworks */,
 				5477B39B17034A370007908B /* QuartzCore.framework in Frameworks */,
 				5477B39917030FDC0007908B /* CoreLocation.framework in Frameworks */,
 				5440E50E1701AC860007BD1E /* UIKit.framework in Frameworks */,
@@ -237,6 +240,7 @@
 		5440E50C1701AC860007BD1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F45DCF091799979F00160C30 /* Security.framework */,
 				54E1380A175C8D580055A47D /* ShinobiGrids.embeddedframework */,
 				5477B39A17034A370007908B /* QuartzCore.framework */,
 				5477B39817030FDC0007908B /* CoreLocation.framework */,
