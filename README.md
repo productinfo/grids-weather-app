@@ -1,7 +1,7 @@
 ShinobiGrids Weather Demo App (Objective-C)
 =====================
 
-The ShinobiDataGrid, new in ShinobiGrids version 2.0, provides a more powerful and flexible way of displaying your tabular data than its previous iteration the ShinobiGrid. This weather demo app demonstrates how to make the most of the ShinobiDataGrid!
+The ShinobiDataGrid, new in ShinobiGrids version 2.0, provides a more powerful and flexible way of displaying your tabular data than its previous iteration the ShinobiGrid. This weather demo app demonstrates how to make the most of the ShinobiDataGrid! There is an accompanying [blog post](http://www.shinobicontrols.com/blog/posts/2013/07/24/a-weather-information-app-datasource-helpers-and-custom-cells-in-shinobidatagrids/) explaining how the app uses data source helpers and custom cells.
 
 ![Screenshot](screenshot.png?raw=true)
 
