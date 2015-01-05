@@ -118,8 +118,10 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
 -(void)viewDidLoad{
     
     [super viewDidLoad];
-    
-    [self setTitle:@"ShinobiGirds Weather Demo App V0.1"];
+  
+    [ShinobiDataGrids setLicenseKey:@""]; // TODO: add your trial license key here!
+  
+    [self setTitle:@"ShinobiGrids Weather Demo App V0.1"];
     [[self view] setBackgroundColor:[UIColor backgroundColor]];
     
     _headerFont = [UIFont fontWithName:@"Helvetica-Bold" size:14];
@@ -324,11 +326,11 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
     [_bottomView addSubview:_bottomGrid];
 }
 
--(void)addColumnToGrid:(ShinobiDataGrid*)grid WithTitle:(NSString*)title withProperty:(NSString*)property withCellType:(Class)cellType andWidth:(int)width{
+-(void)addColumnToGrid:(ShinobiDataGrid*)grid WithTitle:(NSString*)title withProperty:(NSString*)property withCellType:(Class)cellType andWidth:(NSInteger)width{
     SDataGridColumn *gridColumn = [[SDataGridColumn alloc] initWithTitle:title forProperty:property];
     [gridColumn setCellType:cellType];
     [grid addColumn:gridColumn];
-    [gridColumn  setWidth:[NSNumber numberWithInt:width]];
+    [gridColumn setWidth:[NSNumber numberWithLong:width]];
 }
 
 -(void)styleGrid:(ShinobiDataGrid*)dataGrid{
@@ -353,13 +355,14 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
     [sDataGridStyleRows setTextColor:[UIColor textColor]];
     [sDataGridStyleRows setBackgroundColor:[UIColor backgroundColor]];
     [dataGrid setDefaultCellStyleForRows:sDataGridStyleRows];
-    
+    [dataGrid setDefaultCellStyleForAlternateRows:sDataGridStyleRows];
+  
     //... and the grid line style.
     SDataGridLineStyle *sDataGridLineStyle = [SDataGridLineStyle new];
     [sDataGridLineStyle setColor:[UIColor gridBorderColor]];
     [sDataGridLineStyle setWidth:1];
     [dataGrid setDefaultGridLineStyle:sDataGridLineStyle];
-    
+  
 }
 
 // When keyboard hides, search for weather data at newly specified location
@@ -393,7 +396,7 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
 // Pass location name URL request to Yahoo and retreives associated WOEID
 -(NSString*)getUserToPickNewWOEID{
             
-    int totalLocations = [_places count];
+    NSInteger totalLocations = [_places count];
     
     if(totalLocations < 1){ // If yahoo returns no matches for entered place name return nil
         @throw([InvalidLocationException exceptionWithName:@"Invalid Location" reason:@"Location in request is invalid" userInfo:nil]);
@@ -411,7 +414,7 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
         
         }
         
-        int height = (PLACES_TABLE_HEIGHT < ([_places count] * PLACES_TABLE_ROW_HEIGHT)) ? PLACES_TABLE_HEIGHT : ([_places count] * PLACES_TABLE_ROW_HEIGHT);
+        NSInteger height = (PLACES_TABLE_HEIGHT < ([_places count] * PLACES_TABLE_ROW_HEIGHT)) ? PLACES_TABLE_HEIGHT : ([_places count] * PLACES_TABLE_ROW_HEIGHT);
              
         UITableView *clarificationTable = [[UITableView alloc] initWithFrame:CGRectMake((([self view].bounds.size.width / 2) - (PLACES_TABLE_WIDTH / 2)), MARGIN + (TOPBAR_HEIGHT * 0.7), PLACES_TABLE_WIDTH, height)];
         [[clarificationTable layer] setCornerRadius:5];

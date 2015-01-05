@@ -23,15 +23,9 @@
 		5440E5271701AC870007BD1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440E5261701AC870007BD1E /* ViewController.m */; };
 		5440E52A1701AC870007BD1E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5440E5281701AC870007BD1E /* ViewController_iPhone.xib */; };
 		5440E52D1701AC870007BD1E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5440E52B1701AC870007BD1E /* ViewController_iPad.xib */; };
-		5440E5351701AC870007BD1E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5440E5341701AC870007BD1E /* SenTestingKit.framework */; };
-		5440E5361701AC870007BD1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5440E50D1701AC860007BD1E /* UIKit.framework */; };
-		5440E5371701AC870007BD1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5440E50F1701AC860007BD1E /* Foundation.framework */; };
 		5440E54F1701B3F00007BD1E /* RSSFeedReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440E54E1701B3F00007BD1E /* RSSFeedReader.m */; };
-		5440E5501701B3F00007BD1E /* RSSFeedReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440E54E1701B3F00007BD1E /* RSSFeedReader.m */; };
 		5440E5531701B4090007BD1E /* WeatherDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440E5521701B4080007BD1E /* WeatherDataObject.m */; };
-		5440E5541701B4090007BD1E /* WeatherDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440E5521701B4080007BD1E /* WeatherDataObject.m */; };
 		5440E5591701C6330007BD1E /* WeatherForecastItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440E5581701C6330007BD1E /* WeatherForecastItem.m */; };
-		5440E55A1701C6330007BD1E /* WeatherForecastItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440E5581701C6330007BD1E /* WeatherForecastItem.m */; };
 		54435EA717688B7B00703B31 /* mostlyCloudyDay.png in Resources */ = {isa = PBXBuildFile; fileRef = 54435EA617688B7B00703B31 /* mostlyCloudyDay.png */; };
 		54435EA917688B8000703B31 /* partlyCloudyDay.png in Resources */ = {isa = PBXBuildFile; fileRef = 54435EA817688B8000703B31 /* partlyCloudyDay.png */; };
 		54435EAB17688B8400703B31 /* partlyCloudyNight.png in Resources */ = {isa = PBXBuildFile; fileRef = 54435EAA17688B8400703B31 /* partlyCloudyNight.png */; };
@@ -54,16 +48,7 @@
 		54B06B3B1782D7E40015B37B /* InvalidLocationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B06B3A1782D7E40015B37B /* InvalidLocationException.m */; };
 		54B0F9151740DB2500589CC6 /* SDataGridRisingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B0F9141740DB2500589CC6 /* SDataGridRisingCell.m */; };
 		54B2E412170D790500E4AF40 /* PlaceFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2E411170D790500E4AF40 /* PlaceFinder.m */; };
-		54B2E413170D790500E4AF40 /* PlaceFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2E411170D790500E4AF40 /* PlaceFinder.m */; };
 		54B2E416170D7A1C00E4AF40 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2E415170D7A1C00E4AF40 /* Place.m */; };
-		54B2E417170D7A1C00E4AF40 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B2E415170D7A1C00E4AF40 /* Place.m */; };
-		54E13813175C8D580055A47D /* 44_no_sort.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E1380C175C8D580055A47D /* 44_no_sort.png */; };
-		54E13814175C8D580055A47D /* 44_no_sort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E1380D175C8D580055A47D /* 44_no_sort@2x.png */; };
-		54E13815175C8D580055A47D /* 44_sort_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E1380E175C8D580055A47D /* 44_sort_down.png */; };
-		54E13816175C8D580055A47D /* 44_sort_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E1380F175C8D580055A47D /* 44_sort_down@2x.png */; };
-		54E13817175C8D580055A47D /* 44_sort_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E13810175C8D580055A47D /* 44_sort_up.png */; };
-		54E13818175C8D580055A47D /* 44_sort_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E13811175C8D580055A47D /* 44_sort_up@2x.png */; };
-		54E13819175C8D580055A47D /* ShinobiGrids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E13812175C8D580055A47D /* ShinobiGrids.framework */; };
 		54E794601732C266009C2E5E /* BottomGridDataSourceHelperDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E7945F1732C266009C2E5E /* BottomGridDataSourceHelperDelegate.m */; };
 		54E794631732C279009C2E5E /* TopGridDataSourceHelperDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E794621732C279009C2E5E /* TopGridDataSourceHelperDelegate.m */; };
 		54E961E71715B02A009CD075 /* SDataGridHighLowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E961E61715B02A009CD075 /* SDataGridHighLowCell.m */; };
@@ -73,18 +58,9 @@
 		54F26801171EB3BF0066B564 /* SDataGridSpeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F26800171EB3BF0066B564 /* SDataGridSpeedCell.m */; };
 		54F26803171EB3CC0066B564 /* rev.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F26802171EB3CC0066B564 /* rev.png */; };
 		54F26807171EDE970066B564 /* green_up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F26806171EDE970066B564 /* green_up_arrow.png */; };
+		6845927A1A5AACD3005B2008 /* ShinobiGrids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684592791A5AACD3005B2008 /* ShinobiGrids.framework */; };
 		F45DCF0A1799979F00160C30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45DCF091799979F00160C30 /* Security.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5440E5381701AC870007BD1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5440E5021701AC860007BD1E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5440E5091701AC860007BD1E;
-			remoteInfo = GridsWeatherDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		541DA4FD1716C50C002C727C /* SDataGridDayDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SDataGridDayDateCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -111,7 +87,6 @@
 		5440E5261701AC870007BD1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5440E5291701AC870007BD1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		5440E52C1701AC870007BD1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		5440E5331701AC870007BD1E /* GridsWeatherDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridsWeatherDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5440E5341701AC870007BD1E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5440E54D1701B3F00007BD1E /* RSSFeedReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RSSFeedReader.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		5440E54E1701B3F00007BD1E /* RSSFeedReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RSSFeedReader.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -151,13 +126,6 @@
 		54B2E414170D7A1C00E4AF40 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Place.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		54B2E415170D7A1C00E4AF40 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Place.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		54C30A9B174CCE6700C94694 /* WeatherTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = WeatherTypes.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		54E1380C175C8D580055A47D /* 44_no_sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44_no_sort.png; sourceTree = "<group>"; };
-		54E1380D175C8D580055A47D /* 44_no_sort@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44_no_sort@2x.png"; sourceTree = "<group>"; };
-		54E1380E175C8D580055A47D /* 44_sort_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44_sort_down.png; sourceTree = "<group>"; };
-		54E1380F175C8D580055A47D /* 44_sort_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44_sort_down@2x.png"; sourceTree = "<group>"; };
-		54E13810175C8D580055A47D /* 44_sort_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44_sort_up.png; sourceTree = "<group>"; };
-		54E13811175C8D580055A47D /* 44_sort_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44_sort_up@2x.png"; sourceTree = "<group>"; };
-		54E13812175C8D580055A47D /* ShinobiGrids.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiGrids.framework; sourceTree = "<group>"; };
 		54E7945E1732C265009C2E5E /* BottomGridDataSourceHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BottomGridDataSourceHelperDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		54E7945F1732C266009C2E5E /* BottomGridDataSourceHelperDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BottomGridDataSourceHelperDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		54E794611732C278009C2E5E /* TopGridDataSourceHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TopGridDataSourceHelperDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -172,6 +140,7 @@
 		54F26800171EB3BF0066B564 /* SDataGridSpeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SDataGridSpeedCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		54F26802171EB3CC0066B564 /* rev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rev.png; sourceTree = "<group>"; };
 		54F26806171EDE970066B564 /* green_up_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_up_arrow.png; sourceTree = "<group>"; };
+		684592791A5AACD3005B2008 /* ShinobiGrids.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShinobiGrids.framework; path = Library/Frameworks/ShinobiGrids.framework; sourceTree = DEVELOPER_DIR; };
 		F45DCF091799979F00160C30 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -180,23 +149,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6845927A1A5AACD3005B2008 /* ShinobiGrids.framework in Frameworks */,
 				F45DCF0A1799979F00160C30 /* Security.framework in Frameworks */,
 				5477B39B17034A370007908B /* QuartzCore.framework in Frameworks */,
 				5477B39917030FDC0007908B /* CoreLocation.framework in Frameworks */,
 				5440E50E1701AC860007BD1E /* UIKit.framework in Frameworks */,
 				5440E5101701AC860007BD1E /* Foundation.framework in Frameworks */,
 				5440E5121701AC860007BD1E /* CoreGraphics.framework in Frameworks */,
-				54E13819175C8D580055A47D /* ShinobiGrids.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5440E52F1701AC870007BD1E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5440E5351701AC870007BD1E /* SenTestingKit.framework in Frameworks */,
-				5440E5361701AC870007BD1E /* UIKit.framework in Frameworks */,
-				5440E5371701AC870007BD1E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				5440E50A1701AC860007BD1E /* GridsWeatherDemo.app */,
-				5440E5331701AC870007BD1E /* GridsWeatherDemoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,8 +198,8 @@
 		5440E50C1701AC860007BD1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				684592791A5AACD3005B2008 /* ShinobiGrids.framework */,
 				F45DCF091799979F00160C30 /* Security.framework */,
-				54E1380A175C8D580055A47D /* ShinobiGrids.embeddedframework */,
 				5477B39A17034A370007908B /* QuartzCore.framework */,
 				5477B39817030FDC0007908B /* CoreLocation.framework */,
 				5440E50D1701AC860007BD1E /* UIKit.framework */,
@@ -369,29 +327,6 @@
 			name = "Top Grid";
 			sourceTree = "<group>";
 		};
-		54E1380A175C8D580055A47D /* ShinobiGrids.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				54E1380B175C8D580055A47D /* Resources */,
-				54E13812175C8D580055A47D /* ShinobiGrids.framework */,
-			);
-			name = ShinobiGrids.embeddedframework;
-			path = ../../../../Frameworks/ShinobiGrids.embeddedframework;
-			sourceTree = "<group>";
-		};
-		54E1380B175C8D580055A47D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				54E1380C175C8D580055A47D /* 44_no_sort.png */,
-				54E1380D175C8D580055A47D /* 44_no_sort@2x.png */,
-				54E1380E175C8D580055A47D /* 44_sort_down.png */,
-				54E1380F175C8D580055A47D /* 44_sort_down@2x.png */,
-				54E13810175C8D580055A47D /* 44_sort_up.png */,
-				54E13811175C8D580055A47D /* 44_sort_up@2x.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -412,31 +347,13 @@
 			productReference = 5440E50A1701AC860007BD1E /* GridsWeatherDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5440E5321701AC870007BD1E /* GridsWeatherDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5440E5481701AC870007BD1E /* Build configuration list for PBXNativeTarget "GridsWeatherDemoTests" */;
-			buildPhases = (
-				5440E52E1701AC870007BD1E /* Sources */,
-				5440E52F1701AC870007BD1E /* Frameworks */,
-				5440E5301701AC870007BD1E /* Resources */,
-				5440E5311701AC870007BD1E /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5440E5391701AC870007BD1E /* PBXTargetDependency */,
-			);
-			name = GridsWeatherDemoTests;
-			productName = GridsWeatherDemoTests;
-			productReference = 5440E5331701AC870007BD1E /* GridsWeatherDemoTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5440E5021701AC860007BD1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Daniel Allsop";
 			};
@@ -453,7 +370,6 @@
 			projectRoot = "";
 			targets = (
 				5440E5091701AC860007BD1E /* GridsWeatherDemo */,
-				5440E5321701AC870007BD1E /* GridsWeatherDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -482,12 +398,6 @@
 				548F3C9A172696EC00A06189 /* snow.png in Resources */,
 				548F3C9B172696EC00A06189 /* sun.png in Resources */,
 				548F3C9C172696EC00A06189 /* thunderstorm.png in Resources */,
-				54E13813175C8D580055A47D /* 44_no_sort.png in Resources */,
-				54E13814175C8D580055A47D /* 44_no_sort@2x.png in Resources */,
-				54E13815175C8D580055A47D /* 44_sort_down.png in Resources */,
-				54E13816175C8D580055A47D /* 44_sort_down@2x.png in Resources */,
-				54E13817175C8D580055A47D /* 44_sort_up.png in Resources */,
-				54E13818175C8D580055A47D /* 44_sort_up@2x.png in Resources */,
 				54435EA717688B7B00703B31 /* mostlyCloudyDay.png in Resources */,
 				54435EA917688B8000703B31 /* partlyCloudyDay.png in Resources */,
 				54435EAB17688B8400703B31 /* partlyCloudyNight.png in Resources */,
@@ -496,30 +406,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5440E5301701AC870007BD1E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5440E5311701AC870007BD1E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5440E5061701AC860007BD1E /* Sources */ = {
@@ -551,27 +438,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5440E52E1701AC870007BD1E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5440E5501701B3F00007BD1E /* RSSFeedReader.m in Sources */,
-				5440E5541701B4090007BD1E /* WeatherDataObject.m in Sources */,
-				5440E55A1701C6330007BD1E /* WeatherForecastItem.m in Sources */,
-				54B2E413170D790500E4AF40 /* PlaceFinder.m in Sources */,
-				54B2E417170D7A1C00E4AF40 /* Place.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5440E5391701AC870007BD1E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5440E5091701AC860007BD1E /* GridsWeatherDemo */;
-			targetProxy = 5440E5381701AC870007BD1E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5440E5161701AC870007BD1E /* InfoPlist.strings */ = {
@@ -664,8 +531,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ShinobiGrids.embeddedframework\"",
-					"\"$(SRCROOT)/../../../../Frameworks/ShinobiGrids.embeddedframework\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GridsWeatherDemo/GridsWeatherDemo-Prefix.pch";
@@ -681,8 +547,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/ShinobiGrids.embeddedframework\"",
-					"\"$(SRCROOT)/../../../../Frameworks/ShinobiGrids.embeddedframework\"",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GridsWeatherDemo/GridsWeatherDemo-Prefix.pch";
@@ -690,40 +555,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		5440E5491701AC870007BD1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GridsWeatherDemo.app/GridsWeatherDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GridsWeatherDemo/GridsWeatherDemo-Prefix.pch";
-				INFOPLIST_FILE = "GridsWeatherDemoTests/GridsWeatherDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5440E54A1701AC870007BD1E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GridsWeatherDemo.app/GridsWeatherDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GridsWeatherDemo/GridsWeatherDemo-Prefix.pch";
-				INFOPLIST_FILE = "GridsWeatherDemoTests/GridsWeatherDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -744,15 +575,6 @@
 			buildConfigurations = (
 				5440E5461701AC870007BD1E /* Debug */,
 				5440E5471701AC870007BD1E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5440E5481701AC870007BD1E /* Build configuration list for PBXNativeTarget "GridsWeatherDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5440E5491701AC870007BD1E /* Debug */,
-				5440E54A1701AC870007BD1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

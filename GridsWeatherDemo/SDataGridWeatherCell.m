@@ -162,9 +162,9 @@
 }
 
 // When the weather property is set, update the image that renders the corresponding image based on that weather type
--(void)setWeatherCode:(int)newWeather andWeatherString:(NSString*)newWeatherString{
+-(void)setWeatherCode:(NSInteger)newWeather andWeatherString:(NSString*)newWeatherString{
         
-    switch ([SDataGridWeatherCell rssTypeToWeatherType:newWeather]) {
+    switch ([SDataGridWeatherCell rssTypeToWeatherType:(RSSType)newWeather]) {
         case cloudy:
             _weatherImageView.image = [UIImage imageNamed:@"cloudy.png"];
             break;

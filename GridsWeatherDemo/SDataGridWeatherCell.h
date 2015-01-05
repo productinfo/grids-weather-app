@@ -22,6 +22,6 @@
 // A cell which renders expected weather
 @interface SDataGridWeatherCell  : SDataGridCell
 
--(void)setWeatherCode:(int)newWeather andWeatherString:(NSString*)newWeatherString;
+-(void)setWeatherCode:(NSInteger)newWeather andWeatherString:(NSString*)newWeatherString;
 
 @end
