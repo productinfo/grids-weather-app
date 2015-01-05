@@ -115,9 +115,9 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
     [_locationFinder resignFirstResponder];
 }
 
--(void)viewDidLoad{
+-(void)viewDidAppear:(BOOL)animated {
     
-    [super viewDidLoad];
+    [super viewDidAppear:animated];
   
     [ShinobiDataGrids setLicenseKey:@""]; // TODO: add your trial license key here!
   
@@ -129,12 +129,12 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
     int combinedHeight = (TOPBAR_HEIGHT + TODAY_GRIDS_HEIGHT);
     
     // Partition the view into a top view... two subviews a top and a bottom view
-    _topView = [[UIView alloc] initWithFrame:CGRectMake(MARGIN, MARGIN, ([self view].bounds.size.height - (MARGIN * 2)), combinedHeight)];
+    _topView = [[UIView alloc] initWithFrame:CGRectMake(MARGIN, MARGIN, ([self view].bounds.size.width - (MARGIN * 2)), combinedHeight)];
     [self styleViewToLookLikeGrid:_topView];
     [self setupTopView];
     
     // ...and view on the bottom
-    _bottomView = [[UIView alloc] initWithFrame:CGRectMake(MARGIN, (MARGIN * 2) + combinedHeight, ([self view].bounds.size.height - (MARGIN * 2)), [self view].bounds.size.width - (combinedHeight + (MARGIN * 3)))];
+    _bottomView = [[UIView alloc] initWithFrame:CGRectMake(MARGIN, (MARGIN * 2) + combinedHeight, ([self view].bounds.size.width - (MARGIN * 2)), [self view].bounds.size.width - (combinedHeight + (MARGIN * 3)))];
     [[self view] addSubview:_bottomView];
     [self styleViewToLookLikeGrid:_bottomView];
     [self setupBottomView];
@@ -144,6 +144,9 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
     [_locationManager setDelegate: self];
     [_locationManager setDesiredAccuracy: kCLLocationAccuracyBest];
     [_locationManager setDistanceFilter: kCLDistanceFilterNone];
+    if ([_locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+      [_locationManager requestWhenInUseAuthorization];
+    }
     [_locationManager startUpdatingLocation];
 }
 
