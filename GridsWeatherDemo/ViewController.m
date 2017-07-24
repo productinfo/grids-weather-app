@@ -119,7 +119,7 @@ static NSDateFormatter *dateFormatterBoundaryDate = nil;
     
     [super viewDidAppear:animated];
   
-    [ShinobiDataGrids setLicenseKey:@""]; // TODO: add your trial license key here!
+    [ShinobiDataGrids setTrialKey:@""]; // TODO: add your trial key here!
   
     [self setTitle:@"ShinobiGrids Weather Demo App V0.1"];
     [[self view] setBackgroundColor:[UIColor backgroundColor]];
