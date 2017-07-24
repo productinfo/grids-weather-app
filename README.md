@@ -12,9 +12,9 @@ In order to build this project you'll need a copy of ShinobiGrids. If you don't 
 
 Once you've downloaded and unzipped ShinobiGrids, open up the project in Xcode, and drag ShinobiGrids.embeddedframework from the finder into Xcode's 'frameworks' group, and Xcode will sort out all the header and linker paths for you.
 
-If you're using the trial version you'll need to add your license key. To do so, open up ViewController.m and edit the following line in `viewDidLoad:` to add your license key:
+If you're using the trial version you'll need to add your trial key. To do so, open up ViewController.m and edit the following line in `viewDidLoad:` to add your trial key:
 
-    [ShinobiDataGrids setLicenseKey:@""]; // TODO: add your trial license key here!
+    [ShinobiDataGrids setTrialKey:@""]; // TODO: add your trial key here!
 	
 Contributing
 ------------
